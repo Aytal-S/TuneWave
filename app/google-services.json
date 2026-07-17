@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "731813792106",
+    "firebase_url": "https://mini-project-9c53d-default-rtdb.firebaseio.com",
+    "project_id": "mini-project-9c53d",
+    "storage_bucket": "mini-project-9c53d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731813792106:android:e3839c0606b0e723a73d13",
+        "android_client_info": {
+          "package_name": "com.allenhouse.mini_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdQufQmeE9yCpMiyvwuekmTg76U8fjD38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

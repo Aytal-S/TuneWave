@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".sign_up_page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up to start listening"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="What's your name?"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#5e5e5e"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:paddingStart="10dp"
+            android:inputType="textPersonName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="What's your email address? "
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You'll need to confirm this email later."
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="390dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#5e5e5e"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:paddingStart="10dp"
+            android:inputType="textEmailAddress"/>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ConBtn"
+            android:layout_marginTop="10dp"
+            android:text="Continue"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:backgroundTint="#1DB954"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Or sign up with"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Phone number"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        android:textSize="25sp"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-1dp"
+            android:text="Google"
+            android:id="@+id/googleBtn"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#000000"
+            app:strokeColor="#FFFFFF"
+            app:strokeWidth="1dp"
+            android:textSize="25sp"
+            android:layout_gravity="center" />
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="-390dp"
+            android:src="@drawable/google_logo"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
